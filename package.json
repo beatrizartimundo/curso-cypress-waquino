@@ -13,8 +13,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^6.4.0",
     "cypress-dark": "^1.7.14",
-    "cypress-xpath": "^1.6.2"
+    "cypress-xpath": "^1.6.2",
+    "dayjs": "^1.10.4"
+  },
+  "devDependencies": {
+    "cypress": "^6.6.0"
   }
 }
