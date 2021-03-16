@@ -39,7 +39,7 @@ Cypress.Commands.add('login', (user,password)=>{
         cy.get(loc.LOGIN.USER).type(user)
         cy.get(loc.LOGIN.PASSWORD).type(password)
         cy.get(loc.LOGIN.BTN_LOGIN).click()
-        cy.get(loc.MESSAGE).should('have.text','Bem vindo, Seu madruga pagador!')
+        cy.get(loc.MESSAGE).should('contain','Bem vindo')
 
 })
 Cypress.Commands.add('resetApp', ()=>{
