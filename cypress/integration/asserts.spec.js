@@ -90,6 +90,6 @@ it('Numbers', () =>{
     expect(number).to.be.equal(4)
     expect(number).to.be.above(3)
     expect(number).to.be.below(7)
-    expect(floatNumber).to.be.equal(5.2)
+    expect(floatNumber).to.be.above(5.2)
     
 })
